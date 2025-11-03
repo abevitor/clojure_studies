@@ -9,4 +9,5 @@
   (println "Primeiro par (chave + valor):" (first m))
   (println "Último par (chave + valor):" (last m))
   (println "Valor da chave 'nome':" (get m "nome"))
+  (println "Associação: "(assoc m "idade" 31))
   (println "Mapa com novo par:" (conj m {"idade" 30})))
